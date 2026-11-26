@@ -1,6 +1,7 @@
 {
-    "name": "calc",
-    "description": "",
+    "name": "arcade-calculator",
+    "version": "0.0.2",
+    "description": "Build a Calculator",
     "dependencies": {
         "device": "*"
     },
@@ -9,17 +10,17 @@
         "main.ts",
         "README.md",
         "assets.json",
-        "custom.ts"
+        "arcade-calculator.ts"
     ],
     "testFiles": [
         "test.ts"
     ],
     "targetVersions": {
-        "target": "4.1.32",
+        "target": "2.0.15",
         "targetId": "arcade"
     },
     "supportedTargets": [
         "arcade"
     ],
-    "preferredEditor": "tsprj"
+    "preferredEditor": "blocksprj"
 }
